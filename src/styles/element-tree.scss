@@ -1,0 +1,118 @@
+.el-tree {
+	padding-left: 15px;
+}
+
+.el-tree-node__content {
+	height: 35px;
+}
+
+.is-current>.el-tree-node__content,
+.el-tree-node:focus>.el-tree-node__content {
+	background-color: #ffb822;
+}
+
+.is-current>.el-tree-node__content>.el-tree-node__expand-icon {
+	color: #333;
+}
+
+.el-tree-node__expand-icon {
+	// display: none;
+	font-family: "fa" !important;
+	font-size: 26px;
+	color: #999;
+}
+
+.el-icon-caret-right::before {
+	content: "\e695";
+}
+
+.el-tree-node__expand-icon {
+	// display: none;
+	font-family: "fa" !important;
+	font-size: 26px;
+}
+
+.el-tree-node__expand-icon.expanded {
+	webkit-transform: rotate(0deg);
+	transform: rotate(0deg);
+}
+
+
+.el-tree-node__expand-icon.expanded::before {
+	content: "\e694";
+}
+
+.el-tree-node__expand-icon.is-leaf {
+	font-size: 12px;
+	color: #999;
+}
+
+.el-tree-node__expand-icon.is-leaf::before {
+	content: "\e608";
+}
+
+
+.menuclass{
+		border: 1px solid #d4d8d9;margin-top: 5px;background: #fff;
+		height:100%;
+		/*写给不支持calc()的浏览器*/
+		height: -moz-calc(100% - 44px);
+		height: -webkit-calc(100% - 44px);
+		height: calc(100% - 44px);
+
+}
+.menuclass > .el-menu>.el-menu-item,
+.menuclass > .el-menu >.el-submenu__title {
+  color: #5a5e66;
+}
+.menuclass > .el-menu>.is-active{
+	background-color: #FFB822;
+}
+
+
+.menuclass > .el-menu>.el-menu-item:hover{
+	background-color: #E6E6E6;
+}
+
+.menuclass > .el-menu>.is-active:hover {
+	background-color: #FFB822;
+}
+
+
+
+.aside1 {
+  margin: 5px;
+  min-width: 50px;
+
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  .el-menu {
+    height: 100%;
+    border-radius: 0px;
+    background-color: #fff;
+    border-right: 0px;
+  }
+
+  .el-submenu .el-menu-item {
+    min-width: 60px;
+  }
+
+  .el-menu {
+    width: 180px;
+  }
+
+}
+
+.content-container {
+  background: #f0f0f0;
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 5px;
+  padding-bottom: 1px;
+
+  .content-wrapper {
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+  }
+}

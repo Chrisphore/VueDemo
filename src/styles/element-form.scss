@@ -1,0 +1,65 @@
+.el-form-item__content{
+	line-height: 30px;
+}
+
+.el-form-item__label {
+    line-height: 30px;
+}
+
+
+.el-form-item {
+    margin-bottom: 8px;
+}
+
+.el-form-item__error {
+    padding-top: 2px;
+	position: relative;
+}
+
+.el-textarea__inner{
+	padding: 0 5px;
+}
+
+
+.el-input__inner{
+	height: 30px;
+	line-height: 30px;
+	padding: 0 5px;
+}
+
+
+.el-input__inner {
+//     border-top-width: 0px;
+//     border-left-width: 0px;
+//     border-right-width: 0px;
+//     border-bottom-width: 1px;
+    /*outline: medium;*/
+}
+
+.topsercah1 {
+    margin-top: 5px;
+    background: #FFF;
+    width: 100%;
+	border: 1px solid #d4d8d9;
+}
+
+.el-input__icon {
+    line-height: 30px;
+}
+
+.subedit input{
+	border: 0px;
+	outline:none;
+}
+
+.el-input-number {
+  line-height: 28px;
+}
+
+.el-input-number .el-input {
+	width: 100%;
+}
+
+.el-cascader {
+    line-height: 30px;
+}

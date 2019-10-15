@@ -1,0 +1,145 @@
+@import './element-ui.scss';
+@import './element-tree.scss';
+@import './element-form.scss';
+@import './btn.scss';
+@import './table-list.scss';
+@import './table-edit.scss';
+
+body {
+  padding: 0px;
+  margin: 0px auto;
+}
+
+html,body,#app  {height: 100%;}
+
+a {
+  text-decoration: none;
+	color: #333;
+	cursor: pointer;
+}
+
+
+.el-table,.el-form-item__label,.el-dialog__title,.el-menu-item,.el-tabs__item,.el-textarea__inner,.el-input__inner,.el-tree-node__label{
+	font-size: 13px;
+}
+
+.el-form-item__label,.el-date-editor .el-range-input,.el-input__inner,.el-radio,.el-table,.el-table th{
+	color: #333333;
+}
+
+#app {
+  font-family: MicrosoftYaHei;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: left;
+  color: #2c3e50;
+	font-size: 13px;
+}
+
+//home.vue
+.el-menu-item, .el-submenu__title {
+  color: #fff;
+}
+
+.el-menu .el-menu-item, .el-submenu .el-submenu__title {
+  height: 46px;
+  line-height: 46px;
+}
+
+.el-menu-item:hover, .el-submenu .el-menu-item:hover, .el-submenu__title:hover {
+  background-color: #7ed2df;
+}
+
+.el-submenu .el-menu-item {
+  background-color: #333744
+}
+
+.el-submenu .el-menu-item:hover {
+  background-color: #4A5064
+}
+
+.el-submenu .el-menu-item.is-active, .el-menu-item.is-active,
+.el-submenu .el-menu-item.is-active:hover, .el-menu-item.is-active:hover {
+  background-color: #00C1DE;
+  color: #fff;
+}
+
+.el-menu .iconfont {
+  vertical-align: baseline;
+  margin-right: 6px;
+}
+
+.warp-breadcrum{
+  margin: 5px 10px 15px 0px;
+}
+
+
+
+
+
+	.flow {
+		height: 90px;
+		background-color: #d4d8d9;
+		border: solid 1px #d4d8d9;
+	}
+
+	.flow .achieve {
+		margin: 20px 10px 20px 20px;
+		width: 50px;
+		height: 50px;
+		float: left;
+		background-image: url(../assets/img/ywc.png);
+	}
+
+	.flow .current {
+		margin: 20px 10px 20px 20px;
+		width: 50px;
+		height: 50px;
+		float: left;
+		background-color: #f08302;
+		border-radius: 50%;
+		cursor:pointer;
+	}
+
+	.flow .notDone {
+		margin: 20px 10px 20px 20px;
+		width: 50px;
+		height: 50px;
+		float: left;
+		background-color: #b7bec0;
+		border-radius: 50%;
+	}
+	
+	.flow .apply {
+		margin: 20px 10px 20px 20px;
+		width: 50px;
+		height: 50px;
+		float: left;
+		background-image: url(../assets/img/ywc.png);
+		cursor:pointer;
+	}
+
+
+	.flow .middleNum {
+		width: 15px;
+		height: 31px;
+		font-family: MicrosoftYaHei;
+		font-size: 24px;
+		font-weight: bold;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: 50px;
+		letter-spacing: normal;
+		color: #ffffff;
+		margin-left: 17px;
+	}
+
+	.flow .mainTitle{
+		padding-top: 8px;height: 14px;font-size: 14px; color: #333333;
+	}
+
+
+	.flow .subTitle{
+		height: 12px;font-size: 12px; color: #999999;
+	}
+

@@ -1,0 +1,121 @@
+	button {
+    border-width: 0;
+    padding: 0;
+    cursor: pointer;
+    background-color: transparent;
+	}
+
+	.el-col-sty {
+		padding: 5px;
+	}
+
+	.btn {
+		background: #F0F0F0;
+	}
+	
+	.topBtn{
+		margin-top: 5px;
+		background: #FFF;
+		width: 100%;
+	}
+	
+	.queryBtn{
+		padding: 6px 15px;
+	}
+	
+	.eidtButton{
+		padding: 12px 50px;
+		color: #333744;
+	}
+	
+	
+	
+	
+	button .s-bluegray {
+	  color: #7592a4;
+	}
+	button .s-green {
+	  color: #7cb638;
+	}
+	button .s-blue {
+	  color: #3481de;
+	}
+	
+	button:hover .u-icon {
+	  color: #fff;
+	}
+	button:hover .s-bluegray {
+	  background-color: #7592a4;
+	}
+	button:hover .s-green {
+	  background-color: #7cb638;
+	}
+	button:hover .s-blue {
+	  background-color: #3481de;
+	}
+	
+	.m-view .m-btn-group {
+	  border-width: 0;
+	  padding: 0;
+		margin-right: 10px;
+		background-color: #F0F0F0;
+		color: #333333;
+		font-size: 12px;
+		cursor: pointer;
+	}
+	
+	.m-view .m-btn-group > * {
+	    vertical-align: middle;
+	}
+	
+	.m-view .m-rightbtn-group {
+		border-width: 0;
+		padding: 6px 20px 6px 20px;
+		margin-right: 10px;
+		background-color: #ffffff;
+		border: 1px solid #d9d9d9;
+		color: #333333;
+		font-size: 12px;
+		cursor: pointer;
+		float: right;
+	}
+	
+	
+	.m-view .m-rightbtn-group:focus {
+		background-color: #ffb822;
+	}
+	
+	.m-view .m-rightbtn-group > * {
+			vertical-align: middle;
+	}
+	
+	.u-icon {
+	  display: inline-block;
+	  height: 26px;
+	  width: 26px;
+	  margin-right: 5px;
+	  border-radius: 50%;
+	  background: #fff;
+	  transition: all ease-out 0.1s;
+	}
+	.u-icon .fa {
+	  font-size: 26px;
+	}
+	
+	.s-underline {
+	  text-decoration: underline;
+	  font-size: 12px;
+	}
+	
+	.fa {
+	    font-size: 26px;
+	}
+	
+	.addicon {
+    position: relative;
+    width: 80px;
+    height: 22px;
+    background: #ffb822;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
